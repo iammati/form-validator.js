@@ -1,0 +1,44 @@
+{
+	"private": true,
+	"name": "vite-frontend",
+	"version": "0.0.1",
+	"author": {
+		"email": "mati_01@icloud.com",
+		"name": "Mati Sediqi"
+	},
+	"scripts": {
+		"predev": "echo development > dist/hot",
+		"dev": "pnpm run predev && NODE_ENV=development vite --host",
+		"prebuild": "echo production > dist/hot",
+		"build": "pnpm run prebuild && NODE_ENV=production vite build --watch=false"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.19.1",
+		"@babel/preset-env": "^7.19.1",
+		"eslint": "^8.24.0",
+		"inquirer": "^8.2.4",
+		"postcss": "^8.4.16",
+		"postcss-import": "^14.1.0",
+		"postcss-load-config": "^4.0.1",
+		"postcss-mixins": "^9.0.4",
+		"postcss-preset-env": "^7.8.2"
+	},
+	"dependencies": {
+		"@originjs/vite-plugin-commonjs": "^1.0.3",
+		"@popperjs/core": "^2.11.6",
+		"autoprefixer": "^10.4.12",
+		"bootstrap": "^5",
+		"core-js": "^3.25.3",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"google-libphonenumber": "^3.2.31",
+		"path": "^0.12.7",
+		"postcss-scss": "^4.0.5",
+		"prettier": "^2.7.1",
+		"regenerator-runtime": "^0.13.9",
+		"rollup": "^2.79.1",
+		"sass": "^1.55.0",
+		"vite": "^3",
+		"vite-plugin-time-reporter": "^1.1.0"
+	}
+}

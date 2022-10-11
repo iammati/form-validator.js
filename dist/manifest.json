@@ -1,0 +1,14 @@
+{
+  "src/JavaScript/iife.js": {
+    "file": "iife.js",
+    "src": "src/JavaScript/iife.js",
+    "isEntry": true,
+    "css": [
+      "assets/iife.540e1262.css"
+    ]
+  },
+  "src/JavaScript/iife.css": {
+    "file": "assets/iife.540e1262.css",
+    "src": "src/JavaScript/iife.css"
+  }
+}
